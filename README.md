@@ -18,8 +18,8 @@ print(wav_kbps)    # 4608.0 (in kbps)
 ## Usage
 `WavFile` requires *Bit Depth*, *Sampling Rate*, *Number of Channels*, and *File length in Minutes*
 
-**get_size_gb()**
+**get_size_gb()** <br>
 This gets the estimated file size in Gigabytes
 
-**kilobits**
+**kilobits** <br>
 If you would like to see data rate of the estimated wave file
