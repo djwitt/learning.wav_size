@@ -23,12 +23,3 @@ This gets the estimated file size in Gigabytes
 
 **kilobits**
 If you would like to see data rate of the estimated wave file
-
-
-!!! note Notes for development
-Bitrate is the number of bits per second
-`bitrate = bitsPerSecond * samplePerSec * #channels`
-
-File size is calculated by multiplying the bitrate by the duration (in seconds) and is then divide by 8 (from bits to bytes)
-`fileSize = (bitsPerSample * samplePerSec * #CH * duration) / 8`
-!!!
