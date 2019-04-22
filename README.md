@@ -15,6 +15,7 @@ print(wav_kbps)    # 4608.0 (in kbps)
 
 ```
 
+### Usage
 `WavFile` requires *Bit Depth*, *Sampling Rate*, *Number of Channels*, and *File length in Minutes*
 
 **get_size_gb()**
