@@ -29,10 +29,6 @@ class WavFile:
 
     def get_size_gb(self):
         file_size = (
-            self.get_bitrate(self.num_ch) * self.min_sec()) / self.bits / self.kb_to_gb
+            (self.get_bitrate(self.num_ch) * self.min_sec()) / self.bits / self.kb_to_gb
         )
         return self.check_size(file_size)
-
-new_file = WavFile(24, 48000, 4, 60)
-print(new_file.get_size_gb())
-print(new_file.kilobits)
